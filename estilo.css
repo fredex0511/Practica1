@@ -1,0 +1,35 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: fit-content;
+}
+
+.cuadro{
+    height: 100vh;
+}
+
+#verde{
+    background-color: green;
+    
+}
+
+#blanco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#rojo{
+    background-color: red;
+}
+
+*{
+    margin: 0;
+
+}
+
+#aguila{
+    height: 40%;
+    width: 70%;
+}
